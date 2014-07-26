@@ -11,3 +11,4 @@ I also add important notes as comments.
 - *Composite Pattern*: Build arbitrarily deep trees of objects in which we can treat any of the interior nodes - the composites - just like any of the leaf nodes.
 - *Iterator Pattern*: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. Check out [Enumerable](http://www.ruby-doc.org/core-2.1.1/Enumerable.html)
 - *Command Pattern*: Factor out the action code into its own object. Useful for keeping a list of things to do and remembering what is already done so that we can undo or redo. Think [migrations in Rails](http://guides.rubyonrails.org/migrations.html) 
+- *Adapter Pattern*: An adapter supports the inter- face that we need on the outside, but it implements that interface by making calls to an object hidden inside—an object that does everything we need it to do, but does it via the wrong interface.
