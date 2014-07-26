@@ -32,3 +32,7 @@ Factor out the action code into its own object. Useful for keeping a list of thi
 ### Adapter Pattern
 
 An adapter supports the inter- face that we need on the outside, but it implements that interface by making calls to an object hidden inside—an object that does everything we need it to do, but does it via the wrong interface.
+
+### Proxy Pattern
+
+Proxies are the con artists of the programming world: They pretend to be some other object when they are not, in fact, that object. Inside the proxy is hidden a reference to the other, real object—an object that the GoF referred to as the subject.
