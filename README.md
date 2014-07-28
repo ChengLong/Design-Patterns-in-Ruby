@@ -35,4 +35,8 @@ An adapter supports the inter- face that we need on the outside, but it implemen
 
 ### Proxy Pattern
 
-Proxies are the con artists of the programming world: They pretend to be some other object when they are not, in fact, that object. Inside the proxy is hidden a reference to the other, real object—an object that the GoF referred to as the subject.
+Proxies are the con artists of the programming world: They pretend to be some other object when they are not, in fact, that object. Inside the proxy is hidden a reference to the other, real object - an object that the GoF referred to as the subject.
+
+### Decorator Pattern
+
+Decorators are essentially shells: Each takes in a method call, adds its own special twist, and passes the call on to the next component in line. That next compo- nent may be another decorator, which adds yet another twist, or it may be the final, real object, which actually completes the basic request. Note the use of [Forwardable](http://www.ruby-doc.org/stdlib-2.0/libdoc/forwardable/rdoc/Forwardable.html)
