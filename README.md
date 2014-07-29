@@ -43,4 +43,4 @@ Decorators are essentially shells: Each takes in a method call, adds its own spe
 
 ### Singleton Pattern
 
-A class that can have only one instance and that provides global access to that one instance
+A class that can have only one instance and that provides global access to that one instance. Ruby has [Singleton](http://www.ruby-doc.org/stdlib-2.1.0/libdoc/singleton/rdoc/Singleton.html)
