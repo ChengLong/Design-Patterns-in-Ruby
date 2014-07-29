@@ -40,3 +40,7 @@ Proxies are the con artists of the programming world: They pretend to be some ot
 ### Decorator Pattern
 
 Decorators are essentially shells: Each takes in a method call, adds its own special twist, and passes the call on to the next component in line. That next compo- nent may be another decorator, which adds yet another twist, or it may be the final, real object, which actually completes the basic request. Note the use of [Forwardable](http://www.ruby-doc.org/stdlib-2.0/libdoc/forwardable/rdoc/Forwardable.html)
+
+### Singleton Pattern
+
+A class that can have only one instance and that provides global access to that one instance
