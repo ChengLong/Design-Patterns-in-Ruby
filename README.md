@@ -49,3 +49,7 @@ A class that can have only one instance and that provides global access to that 
 
 Factory pattern is not really a new pattern at all. At its heart, this pattern is really just the Template Method pattern applied to the problem of creating new objects. Both patterns have a generic part, which is coded in the generic base class, and subclasses fill in the blanks left in the base class.
 Abstract Factory is an object dedicated to creating a compatible set of objects. It's Strategy pattern applied to object creation.
+
+### Builder Pattern
+
+A builder takes a multipart specification of your new object and deals with all the complexity and drudgery of creating that object. Useful for creating complex objects.
