@@ -44,3 +44,8 @@ Decorators are essentially shells: Each takes in a method call, adds its own spe
 ### Singleton Pattern
 
 A class that can have only one instance and that provides global access to that one instance. Ruby has [Singleton](http://www.ruby-doc.org/stdlib-2.1.0/libdoc/singleton/rdoc/Singleton.html)
+
+### Factory Pattern
+
+Factory pattern is not really a new pattern at all. At its heart, this pattern is really just the Template Method pattern applied to the problem of creating new objects. Both patterns have a generic part, which is coded in the generic base class, and subclasses fill in the blanks left in the base class.
+Abstract Factory is an object dedicated to creating a compatible set of objects. It's Strategy pattern applied to object creation.
